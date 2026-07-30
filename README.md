@@ -24,4 +24,4 @@ pip install jupyter notebook jupyterlab
 jupyter lab   # or: jupyter notebook
 ```
 
-`requirements.txt` pins the local Jupyter/dev tooling versions; the notebook's own runtime dependencies (`tapipy`, `pandas`, `matplotlib`, etc.) are installed by its own first code cell.
+The notebook's own runtime dependencies (`tapipy`, `pandas`, `matplotlib`, etc.) are installed by its own first code cell — no separate requirements file needed.
